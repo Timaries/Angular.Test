@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Roboto";
+  src: url(assets/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: "Roboto2";
+  src: url(assets/Roboto-BlackItalic.ttf);
+}
+
+body {
+  padding: 0px;
+  margin: auto;
+  background-color: aqua;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40vh;
+  font-family: "Roboto";
+}
+p {
+  text-align: center;
+  font-family: "Roboto2";
+}
